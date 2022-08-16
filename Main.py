@@ -34,7 +34,7 @@ class Stack:
 size, queries = map(int, input().rstrip().split())
 stack = Stack(size)
 for line in range(queries):
-    values=list(map(int,input().rstrip().split())
+    values=list(map(int,input().rstrip().split()))
                 if values[0]==1:
                 stack.push(values[1])
                elif values[0] == 2:
